@@ -3,7 +3,7 @@
 #### Bill of Materials:
 - Arduino UNO
 - DS1621 Temperature sensor
-- MCP32008 IO Expander
+- MCP23008 IO Expander
 - 2x 2.2k ohm resistors
 - 8 LEDs
 
@@ -66,8 +66,8 @@ unsigned char i2c_transmit(unsigned char type);
 
 ## Unit Testing
 
-*MCP32008 IO Expander*
-- In order to tests the IO expander, I have created a simple circuit, connecting only the MCP3200 to the ArduinoUNO board and 8 LEDs, displaying a number and incrementing it.
+*MCP23008 IO Expander*
+- In order to tests the IO expander, I have created a simple circuit, connecting only the MCP23008 to the ArduinoUNO board and 8 LEDs, displaying a number and incrementing it.
 
 ```C
 int main(void)
